@@ -1,0 +1,17 @@
+.property-details {
+  background: var(--wp--preset--color--event-horizon);
+  max-width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  color: white;
+}
+
+.property-details .price {
+  font-size: 2em;
+  text-align: center;
+}
+
+.property-details .beds-baths {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "astroestates/property-search",
+  "description": "A search form for properties",
+  "title": "Property search",
+  "category": "widgets",
+  "icon": "search",
+  "acf": {
+    "renderTemplate": "property-search.php",
+    "mode": "preview"
+  },
+  "supports": {
+    "mode": false,
+    "align": false
+  }
+}

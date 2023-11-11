@@ -1,0 +1,1 @@
+<div>This block will display a list of property search results.</div>

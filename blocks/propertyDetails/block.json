@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "astroestates/property-details",
+  "description": "Display the property details",
+  "title": "Property details",
+  "category": "widgets",
+  "icon": "star-filled",
+  "acf": {
+    "renderTemplate": "property-details.php",
+    "mode": "preview",
+    "postTypes": ["property"]
+  },
+  "supports": {
+    "mode": false,
+    "align": false
+  },
+  "style": ["file:./style.css"]
+}

@@ -1,0 +1,88 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--poppins)"
+    },
+    "blocks": {
+      "core/button": {
+        "color": {
+          "background": "var(--wp--preset--color--blast-off)",
+          "text": "var(--wp--preset--color--starlight)"
+        },
+        "typography": {
+          "fontWeight": "700",
+          "textTransform": "uppercase",
+          "letterSpacing": "1.3px"
+        }
+      }
+    }
+  },
+  "settings": {
+    "appearanceTools": true,
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Poppins",
+          "name": "Poppins",
+          "slug": "poppins",
+          "fontFace": [
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "src": ["file:./assets/fonts/Poppins-Regular.woff2"]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "400",
+              "fontStyle": "italic",
+              "src": ["file:./assets/fonts/Poppins-Italic.woff2"]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "src": ["file:./assets/fonts/Poppins-Bold.woff2"]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "700",
+              "fontStyle": "italic",
+              "src": ["file:./assets/fonts/Poppins-BoldItalic.woff2"]
+            }
+          ]
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1100px"
+    },
+    "color": {
+      "palette": [
+        {
+          "color": "#ffffff",
+          "name": "Starlight",
+          "slug": "starlight"
+        },
+        {
+          "color": "#000000",
+          "name": "Black hole",
+          "slug": "black-hole"
+        },
+        {
+          "color": "#0c0720",
+          "name": "Event horizon",
+          "slug": "event-horizon"
+        },
+        {
+          "color": "#ff7e33",
+          "name": "Blast off",
+          "slug": "blast-off"
+        }
+      ]
+    }
+  }
+}

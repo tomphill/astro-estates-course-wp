@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "astroestates/tick-item",
+  "description": "A tick item with text to the right",
+  "title": "Tick item",
+  "category": "text",
+  "icon": "yes-alt",
+  "acf": {
+    "renderTemplate": "tick-item.php",
+    "mode": "preview"
+  },
+  "supports": {
+    "mode": false
+  },
+  "style": ["file:./style.css"]
+}
